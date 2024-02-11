@@ -96,7 +96,7 @@ class AssetLibrary(AbstractComponentUI):
             asset_link = f"https://youtube.com/embed/{asset_link.split('?v=')[-1]}"
             embed_html = f'<iframe width="{embed_width}" height="{embed_height}" src="{asset_link}"></iframe>'
         elif 'public/' in asset_link:
-            asset_link = f"http://localhost:31415/file={asset_link}"
+            asset_link = f"https://31415-rayventura-shortgpt-g8svemd8aj2.ws-us107.gitpod.io/file={asset_link}"
             file_ext = asset_link.split('.')[-1]
 
             if file_ext in ['mp3', 'wav', 'ogg']:

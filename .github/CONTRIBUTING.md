@@ -2,7 +2,7 @@
 
 ## Contributing
 
-There are many exciting ways to contribute to ShortGPT, our AI automated content creation framework. 👏
+There are many exciting ways to contribute to VidEditAI, our AI automated content creation framework. 👏
 
 See below for everything you can do and the processes to follow for each contribution method. Note that no matter how you contribute, your participation is governed by our ✨[Code of Conduct](CODE_OF_CONDUCT.md)✨.
 

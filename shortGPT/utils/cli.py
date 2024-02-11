@@ -7,15 +7,10 @@ class CLI:
     def display_header():
         '''Display the header of the CLI'''
         CLI.display_green_text('''
-.d88888b  dP     dP   .88888.    888888ba  d888888P  .88888.   888888ba  d888888P
-88.    "' 88     88  d8'   `8b   88    `8b    88    d8'   `88  88    `8b    88
-`Y88888b. 88aaaaa88  88     88   88aaaa8P'    88    88         88aaaa8P'    88
-      `8b 88     88  88     88   88   `8b.    88    88   YP88  88           88
-d8'   .8P 88     88  Y8.   .8P   88     88    88    Y8.   .88  88           88
- Y88888P  dP     dP   `8888P'    dP     dP    dP     `88888'   dP           dP
+VidEditAI
 
         ''')
-        CLI.display_green_text("Welcome to ShortGPT! This is an experimental AI framework to automate all aspects of content creation.")
+        CLI.display_green_text("Welcome to VidEditAI! This is an experimental AI framework to automate all aspects of content creation.")
         print("")
         CLI.display_requirements_check()
 
