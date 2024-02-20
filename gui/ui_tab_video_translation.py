@@ -76,7 +76,8 @@ class VideoTranslationUI(AbstractComponentUI):
                     self.progress_counter += 1
 
                 video_path = content_translation_engine.get_video_output_path()
-                current_url = self.shortGptUI.share_url+"/" if self.shortGptUI.share else self.shortGptUI.local_url
+                #current_url = self.shortGptUI.share_url+"/" if self.shortGptUI.share else self.shortGptUI.local_url
+                current_url = "https://31415-6xian9-videditai-oj0do3pru9c.ws-us108.gitpod.io/"
                 file_url_path = f"{current_url}file={video_path}"
                 file_name = video_path.split("/")[-1].split("\\")[-1]
                 self.embedHTML += f'''

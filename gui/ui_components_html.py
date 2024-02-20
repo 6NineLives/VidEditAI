@@ -7,11 +7,11 @@ class GradioComponentsHTML:
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px;">
             <h1 style="margin-left: 0px; font-size: 35px;">VidEdit AI MVP</h1>
             <div style="flex-grow: 1; text-align: right;">
-                <a href="https://discord.gg/bWreuAyRaj" target="_blank" style="text-decoration: none;">
+                <a href="https://discord.gg/4yyDxbY2s4" target="_blank" style="text-decoration: none;">
                 <button style="margin-right: 10px; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #7289DA; border: none; border-radius: 5px; cursor: pointer;">Join Discord</button>
                 </a>
-                <a href="https://shortx.ai/?ref=sgpt" target="_blank" style="text-decoration: none;">
-                <button style="padding: 10px 20px; font-size: 16px; color: #fff; background-color: #333; border: none; border-radius: 5px; cursor: pointer;">Join ShortX, the next upgrade of ShortGPT ⭐</button>
+                <a href="https://discord.gg/CAB5fcVFHT" target="_blank" style="text-decoration: none;">
+                <button style="padding: 10px 20px; font-size: 16px; color: #fff; background-color: #333; border: none; border-radius: 5px; cursor: pointer;">Go Premium</button>
                 </a>
             </div>
             </div>
@@ -24,7 +24,7 @@ class GradioComponentsHTML:
           <h2 style='margin: 0;'>ERROR : {error_message}</h2>
           <p style='margin: 10px 0;'>Traceback Info : {stack_trace}</p>
           <p style='margin: 10px 0;'>If the problem persists, don't hesitate to contact our support. We're here to assist you.</p>
-          <a href='https://discord.gg/qn2WJaRH' target='_blank' style='background: #a94442; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; text-decoration: none;'>Get Help on Discord</a>
+          <a href='https://discord.gg/CAB5fcVFHT' target='_blank' style='background: #a94442; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; text-decoration: none;'>Get Help on Discord</a>
         </div>
         '''
 
@@ -42,15 +42,16 @@ class GradioComponentsHTML:
         Returns:
         str: The generated HTML code snippet.
         """
+        domain = "https://31415-6xian9-videditai-oj0do3pru9c.ws-us108.gitpod.io/"
         html = f'''
-            <div style="display: flex; flex-direction: column; align-items: center;">
-                <video width="{width}" height="{height}" style="max-height: 100%;" controls>
-                    <source src="{file_url_path}" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <a href="{file_url_path}" download="{file_name}" style="margin-top: 10px;">
-                    <button style="font-size: 1em; padding: 10px; border: none; cursor: pointer; color: white; background: #007bff;">Download Video</button>
-                </a>
-            </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <video width="{width}" height="{height}" style="max-height: 100%;" controls>
+                <source src="{domain}{file_url_path}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <a href="{domain}{file_url_path}" download="{file_name}" style="margin-top: 10px;">
+                <button style="font-size: 1em; padding: 10px; border: none; cursor: pointer; color: white; background: #007bff;">Download Video</button>
+            </a>
+        </div>
         '''
         return html

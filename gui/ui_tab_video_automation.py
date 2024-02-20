@@ -130,7 +130,8 @@ class VideoAutomationUI(AbstractComponentUI):
                     try:
                         video_path = self.make_video(self.script, self.voice_module, self.isVertical, progress=progress)
                         file_name = video_path.split("/")[-1].split("\\")[-1]
-                        current_url = self.shortGptUI.share_url+"/" if self.shortGptUI.share else self.shortGptUI.local_url
+                        #current_url = self.shortGptUI.share_url+"/" if self.shortGptUI.share else self.shortGptUI.local_url
+                        current_url = "https://31415-6xian9-videditai-oj0do3pru9c.ws-us108.gitpod.io/"
                         file_url_path = f"{current_url}file={video_path}"
                         self.video_html = f'''
                             <div style="display: flex; flex-direction: column; align-items: center;">

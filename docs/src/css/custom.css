@@ -11,7 +11,7 @@
 }
 
 html[data-theme='dark'] {
-  --ifm-font-base-color: #dee0f2;
+  --ifm-font-base-color: hsl(234, 100%, 51%);
   --ifm-navbar-link-hover-color: #8b9dff;
   --ifm-link-color: #8b9dff;
   --ifm-menu-color-active: #8b9dff;
