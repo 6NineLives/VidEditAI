@@ -61,7 +61,7 @@ VidEditAI
         print(CLI.bcolors.FAIL + "ERROR : " + error_message + CLI.bcolors.ENDC)
         print(stack_trace)
         print("If the problem persists, don't hesitate to contact our support. We're here to assist you.")
-        print("Get Help on Discord : https://discord.gg/qn2WJaRH")
+        print("Get Help on Discord : https://discord.gg/QTYjWJHNJc")
 
     @staticmethod
     def get_console_green_text(text):
