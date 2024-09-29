@@ -74,11 +74,3 @@ VidEditAI utilizes the following technologies to power its functionality:
 
 These technologies work together to provide a seamless and efficient experience in automating video and short content creation with AI.
 
-## 💁 Contributing
-
-As an open-source project in a rapidly developing field, we are extremely open to contributions, whether it would be in the form of a new feature, improved infrastructure, or better documentation.
-<p align="center">
-  <a href="https://star-history.com/#RayVentura/VidEditAI&Date">
-    <img src="https://api.star-history.com/svg?repos=RayVentura/VidEditAI&type=Date" alt="Star History Chart">
-  </a>
-</p>
