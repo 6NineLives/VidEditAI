@@ -1,4 +1,4 @@
-# VidEditAI (ShortGPT Fork)
+# VidEditAI (Mediachain)
 
 ## VidEditAI Intro
 - 🎞️ **Automated editing framework**: Streamlines the video creation process with an LLM oriented video editing language.
